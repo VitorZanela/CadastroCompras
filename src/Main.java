@@ -13,7 +13,7 @@ public class Main {
         entrada.nextLine();
         externo:
         while (true){
-            System.out.println("Digite a descrição da compra:");
+            System.out.println("Digite o nome do item que esta comprando:");
             Itens item = new Itens();
             item.setItem(entrada.nextLine());
             System.out.println("Digite o valor da compra:");
